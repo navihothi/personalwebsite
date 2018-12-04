@@ -1,0 +1,52 @@
+/* FONT FAMILY */
+
+@font-face {
+    font-family: goBold-Bold;
+    src: url(../assets/fonts/Gobold-Bold.otf);
+}
+
+@font-face {
+    font-family: goBold-Regular;
+    src: url(../assets/fonts/Gobold-Regular.otf);
+}
+
+@font-face {
+    font-family: playfairBold;
+    src: url(../assets/fonts/PlayfairDisplay-Bold-ttf);
+}
+
+@font-face {
+    font-family: playfairRegular;
+    src: url(../assets/fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: robotoMedium;
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+
+/* COLORS */
+
+/* #ED6459 - terra cotta pink
+#FAE458 - mustard yellow
+#00a39b - cyan/teal color
+#0c0b0c - smoky black
+#fcfcfc - baby powder white */
+
+/*  */
+
+/* HOME PAGE */
+.header-container {
+    h1{
+        color: red;
+    }    
+}
+
+h1 {
+    color: blue;
+}

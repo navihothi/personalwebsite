@@ -1,0 +1,289 @@
+/* FONT FAMILY */
+
+@font-face {
+    font-family: goBold-Bold;
+    src: url(../../assets/fonts/Gobold-Bold.otf);
+}
+
+@font-face {
+    font-family: goBold-Regular;
+    src: url(../../assets/fonts/Gobold-Regular.otf);
+}
+
+@font-face {
+    font-family: robotoMedium;
+    src: url(../../assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: robotoRegular;
+    src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'futuraBold';
+    src: url(../../assets/fonts/unicode.futurab.ttf);
+}
+
+@font-face {
+    font-family: 'futuraBoldItal';
+    src: url(../../assets/fonts/futurabold-ital.ttf);
+}
+
+/* font-family: 'Playfair Display', serif; */
+
+/* COLORS */
+
+/* #ED6459 - terra cotta pink
+#FAE458 - mustard yellow
+#00a39b - cyan/teal color
+#0c0b0c - smoky black
+#fcfcfc - baby powder white */
+
+/* HOME PAGE */
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+}
+.homepage-container {  
+}
+
+.header-container{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-social {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.name-link {
+    color: #0C0B0C;
+    text-decoration: none;
+    margin: 1.5rem 0 auto;
+}
+.name{
+    font-family: goBold-Bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    margin: 0;
+    padding-bottom: 1rem;
+
+}
+.name-color {
+    color: #00A39B;
+    font-family: goBold-Bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+.icon {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-content: flex-end;
+}
+li {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: lowercase;
+    padding-left: 1.5rem;
+}
+
+.nav-link {
+    color: #0C0B0C;
+    text-decoration: none;
+    margin: 1.5rem 0 auto;
+
+}
+.nav-link:hover {
+    /* text-decoration: underline; */
+    color: #00A39B;
+}
+
+
+.homepage-content{
+    height: auto;
+    display: flex;
+}
+.homepage-square-one{
+    background-color: #ED6459;
+    border: 1px solid #ED6459;
+    width: 615px;
+    height: 625px;
+    /* float: left; */
+    z-index: 1;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+.homepage-square-two {
+    background-color: #00A39B;
+    border: 1px solid #00A39B;
+    width: 615px; 
+    height: 313px; 
+    /* float: right; */
+    z-index: 1;
+}
+.homepage-square-three {
+    background-color: #0C0B0C;
+    border: 1px solid #0C0B0C;
+    width: 679px;
+    height: 90px;
+    z-index: 2;
+    /* float: right; */
+    margin-top: 0.50rem;
+    margin-left: -4rem;
+}
+
+/* .homepage-welcome{
+    position: relative;
+} */
+
+
+.welcome{
+    margin-top: 0;
+    font-family: 'futuraBoldItal';
+    text-transform: uppercase;
+    font-size: 11rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    transform: translate(-0.75%, -18%);
+    color: white;
+    /* transform: translate(-50%, -50%); */
+}
+.split-text-wel {
+    margin-top: 0;
+    font-family: 'futuraBoldItal';
+    text-transform: uppercase;
+    font-size: 12rem;
+    position: absolute;
+    transform: translate(-60%, -65%);
+    /* z-index: 2;
+    color: white; */
+}
+
+/* .period {
+    font-family: playfairBold;
+    font-size: 11rem;
+    color: #FAE458;
+    position: absolute;
+    top: 0;
+    right: -7%;
+} */
+.homepage-scroll-container {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 5;
+    display: flex;
+    white-space: nowrap;
+
+}
+.scroll-square{
+    background-color: #FAE458; 
+    border: 1px solid #FAE458;
+    width: 2.25rem;
+    height: 10rem;
+   
+   
+}
+
+.scroll-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+    /* word-spacing: 0.25rem; */
+    /* z-index: 5; */
+    transform: translateX(50%) rotate(90deg);
+    transform-origin: center;
+    position: absolute;
+    width: 22px;
+}
+
+.image-navi {
+  height: 500px;
+  width: auto;
+  position: absolute;
+  z-index: 4;
+  left: 16%;
+  bottom: 5%;
+}
+
+.about-job-title {
+    z-index: 4;
+    margin-top: 0;
+    font-family: 'futuraBoldItal';
+    text-transform: uppercase;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-0.75%, -18%);
+}
+
+.split-text-des {
+    color: #FFF;
+    font-family: 'futuraBoldItal';
+    text-transform: uppercase;
+
+    position: absolute;
+    transform: translate(7%, -61%);
+}
+.split-text-ampersand{
+    color: #FAE458;
+    transform: translate(12%, 100%); 
+    /* position: absolute; */
+}
+.split-text-dev {
+    color: #FFF;
+    font-family: 'futuraBoldItal';
+    text-transform: uppercase;
+ 
+    position: absolute;
+    transform: translate(5%, 69%);
+}
+
+.portfolio-header {
+    background-color: #0C0B0C;
+    width: 1240px;
+    height: 5rem;
+
+}
+.portfolio-heading {
+    color: #fcfcfc;
+    position: absolute;
+    top: 7%;
+    left: 7%;
+    font-family: 'futuraBoldItal';
+    font-size: 5rem;
+}
+
+.portfolio-grid-container {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 0.5rem;
+    width: 100%;
+    height: 800px;
+}
+
+.portfolio-grid-item {
+    background-color: grey;
+}
